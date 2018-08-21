@@ -1,0 +1,16 @@
+package record;
+
+public class ex12 {
+
+
+	public ex12() {
+		// TODO Auto-generated constructor stub
+		System.out.println("bike is created");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ex12 b=new ex12();
+	}
+
+}
