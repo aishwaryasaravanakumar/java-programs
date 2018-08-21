@@ -1,0 +1,24 @@
+package record;
+
+public class Ex14 {
+int id;
+String name;
+	public Ex14(int i,String n) {
+		// TODO Auto-generated constructor stub
+		id=i;
+		name=n;
+	}
+	void display() {
+		System.out.println(id+""+name);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Ex14 e=new Ex14(111,"aishu");
+		Ex14 k=new Ex14(222,"arav");
+		e.display();
+		k.display();
+
+	}
+
+}
