@@ -1,0 +1,18 @@
+package record;
+
+public class ex13 {
+	int id;
+	String name;
+	void display() {
+		System.out.println(id+""+name);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ex13 s1=new ex13();
+ex13 s2=new ex13();
+s1.display();
+s2.display();
+	}
+
+}
