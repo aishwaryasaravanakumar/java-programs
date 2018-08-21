@@ -1,0 +1,18 @@
+package record;
+
+public class Ex9 {
+	void sum(int a,int b) {
+		System.out.println(a+b);
+	}
+	void sum(double a,double b) {
+		System.out.println(a+b);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Ex9 c=new Ex9();
+c.sum(10.5, 6.7);
+c.sum(20, 20);
+	}
+
+}
