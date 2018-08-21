@@ -1,0 +1,30 @@
+package record;
+
+public class Ex15 {
+	int id;
+	String name;
+	int age;
+
+	public Ex15(int i,String n) {
+		// TODO Auto-generated constructor stub
+		id=i;
+		name=n;
+}
+	public Ex15(int i,String n,int a) {
+		id=i;
+		name=n;
+		age=a;
+	}
+	void display() {
+		System.out.println(id+""+name+""+age);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Ex15 a=new Ex15(1,"aishu");
+		Ex15 b=new Ex15(2,"akash",23);
+		a.display();
+		b.display();
+	}
+
+}
