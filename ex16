@@ -1,0 +1,29 @@
+package record;
+
+public class EX16 {
+	int id;
+	String name;
+
+	public EX16(int i,String n) {
+		// TODO Auto-generated constructor stub
+		id=i;
+		name=n;
+	}
+	public EX16(EX16 s) {
+		id=s.id;
+		name=s.name;
+	}
+	void display() {
+		System.out.println(id+""+name);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EX16 e=new EX16(111,"karan");
+		EX16 f=new EX16(e);
+        e.display();
+        f.display();
+
+	}
+
+}
