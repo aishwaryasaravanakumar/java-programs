@@ -1,0 +1,22 @@
+package record;
+
+public class ex18 {
+	static int count=0;
+
+	public ex18() {
+		// TODO Auto-generated constructor stub
+		count++;
+		System.out.println(count);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ex18 w=new ex18();
+		ex18 y=new ex18();
+		ex18 v=new ex18();
+
+		
+
+	}
+
+}
