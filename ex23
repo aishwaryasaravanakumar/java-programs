@@ -1,0 +1,29 @@
+public class ex23 {
+	int id;
+	String name;
+	String city;
+
+	public ex23(int id,String name) {
+		// TODO Auto-generated constructor stub
+		this.id=id;
+		this.name=name;
+		
+	}
+	public ex23(int id,String name,String city) {
+		this(id, name);
+		this.city=city;
+	}
+	void display() {
+		System.out.println(id+""+name+""+city);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ex23 d=new ex23(11, "akshu");
+		ex23 s=new ex23(12,"jith","chennai");
+		d.display();
+		s.display();
+
+	}
+
+}
