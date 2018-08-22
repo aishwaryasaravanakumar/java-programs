@@ -1,0 +1,29 @@
+public class ex22 {
+	int id;
+	String name;
+
+	public ex22() {
+		// TODO Auto-generated constructor stub
+		System.out.println("the default constructor is invoked");
+	}
+	public ex22(int id,String name) {
+		this();
+		this.id=id;
+		this.name=name;
+		
+	}
+	void display() {
+		System.out.println(id+""+name);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ex22 s=new ex22(1,"sdf");
+		ex22 a=new ex22(2,"ugj");
+		s.display();
+		a.display();
+		
+
+	}
+
+}
