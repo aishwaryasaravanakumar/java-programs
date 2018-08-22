@@ -1,0 +1,18 @@
+public class ex26 {
+  
+				  void m(ex26 obj){  
+				  System.out.println("method is invoked");  
+			  }  
+				  void p(){  
+				  m(this);  
+				  }  
+				    
+			  public static void main(String args[]){  
+				  ex26 s1 = new ex26();  
+				  s1.p();  
+				  }  
+			 
+
+
+	}
+
