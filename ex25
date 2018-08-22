@@ -1,0 +1,12 @@
+class ex25{  
+	  void m(ex25 obj){  
+	  System.out.println("method is invoked");  
+	  }  
+	  void p(){  	  m(this);  
+	  }  
+	    
+	  public static void main(String args[]){  
+  ex25 s1 = new ex25();  
+	  s1.p();  
+  }  
+	}  
